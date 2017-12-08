@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="MultiColorCircle">
+        <attr name="circle_size" format="dimension"/>
+        <attr name="circle_color" format="color"/>
+        <attr name="arc_radius" format="dimension"/>
+        <attr name="arc_color" format="color"/>
+        <attr name="divider_width" format="integer"></attr>
+
+    </declare-styleable>
+
+</resources>
