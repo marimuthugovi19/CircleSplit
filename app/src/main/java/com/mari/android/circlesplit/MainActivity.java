@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         colorArray= getResources().getIntArray(R.array.multi_color);
 
         multiColorView.setColorList(colorArray);
-        multiColorView.setDviderWidth(2);
+        multiColorView.setDviderWidth(10);
 
 
 
