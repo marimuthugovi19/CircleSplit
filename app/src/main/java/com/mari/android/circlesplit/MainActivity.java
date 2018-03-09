@@ -1,13 +1,14 @@
 package com.mari.android.circlesplit;
 
+import android.graphics.drawable.AnimationDrawable;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.widget.ImageView;
 
 public class MainActivity extends AppCompatActivity {
 
     int[] colorArray;
     MultiColorCircle multiColorView;
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
 
         multiColorView.setColorList(colorArray);
         multiColorView.setDviderWidth(2);
+
 
 
     }

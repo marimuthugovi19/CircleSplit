@@ -25,4 +25,7 @@
             android:id="@+id/multiColorView"
             />
 
+
+
+
 </LinearLayout>
